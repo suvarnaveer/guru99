@@ -22,6 +22,7 @@ public class WordpressLogin {
 		 driver.findElement(By.id("wp-submit")).click();
 		 Thread.sleep(5000);
 		 System.out.println(driver.getTitle());
+		 System.out.println("Quitting the driver");
 		 driver.quit();
 		 
 	}
